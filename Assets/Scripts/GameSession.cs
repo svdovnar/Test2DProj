@@ -115,4 +115,9 @@ public class GameSession : MonoBehaviour
         gameOverCanvas.SetActive(true);
         Time.timeScale = 0f;
     }
+    public void ExitToMain()
+    {
+        SceneManager.LoadScene(0);
+        Destroy(gameObject);
+    }
 }
