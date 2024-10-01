@@ -61,7 +61,6 @@ public class GameSession : MonoBehaviour
         }
         else
         {
-            UpdateHeartUI();
             GameOver();
         }
     }
